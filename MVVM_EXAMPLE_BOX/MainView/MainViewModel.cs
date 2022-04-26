@@ -6,10 +6,14 @@ namespace MVVM_EXAMPLE_BOX.MainView
     {
         public event PropertyChangedEventHandler? PropertyChanged;
         private MainView.MainModel model;
+        public MainView.Command.UPButtonCommand _upButtonCMD { get; set; }  
+        
 
         public MainViewModel()
         {
             model = new MainView.MainModel();
+            _upButtonCMD = new MainView.Command.UPButtonCommand(model);
+
         }
 
         public MainView.MainModel Model
@@ -27,6 +31,8 @@ namespace MVVM_EXAMPLE_BOX.MainView
                 handler(this, new PropertyChangedEventArgs(name));
             }
         }
+
+
 
 
     }

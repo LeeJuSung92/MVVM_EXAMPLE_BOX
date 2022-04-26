@@ -32,6 +32,16 @@ namespace MVVM_EXAMPLE_BOX.MainView
             }
         }
 
+        private int _Num1;
+        public int num1
+        {
+            get => _Num1;
+            set
+            {
+                _Num1 = value;
+                OnPropertyChanged("NUM1");
+            }
+        }
 
 
 
