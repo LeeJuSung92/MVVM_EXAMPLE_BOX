@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LEE JUSUNG\\Desktop\\Study\\Visual_Studio_project\\MVVM_EXAMPLE_BOX\\MVVM_EXAMPLE_BOX\\MVVM_EXAMPLE_BOX.csproj",
+      "projectUniqueName": "C:\\Users\\LEE JUSUNG\\Desktop\\Study\\Git_Box\\MVVM_EXAMPLE_BOX\\MVVM_EXAMPLE_BOX\\MVVM_EXAMPLE_BOX.csproj",
       "projectName": "MVVM_EXAMPLE_BOX",
-      "projectPath": "C:\\Users\\LEE JUSUNG\\Desktop\\Study\\Visual_Studio_project\\MVVM_EXAMPLE_BOX\\MVVM_EXAMPLE_BOX\\MVVM_EXAMPLE_BOX.csproj",
+      "projectPath": "C:\\Users\\LEE JUSUNG\\Desktop\\Study\\Git_Box\\MVVM_EXAMPLE_BOX\\MVVM_EXAMPLE_BOX\\MVVM_EXAMPLE_BOX.csproj",
       "packagesPath": "C:\\Users\\LEE JUSUNG\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LEE JUSUNG\\Desktop\\Study\\Visual_Studio_project\\MVVM_EXAMPLE_BOX\\MVVM_EXAMPLE_BOX\\obj\\",
+      "outputPath": "C:\\Users\\LEE JUSUNG\\Desktop\\Study\\Git_Box\\MVVM_EXAMPLE_BOX\\MVVM_EXAMPLE_BOX\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

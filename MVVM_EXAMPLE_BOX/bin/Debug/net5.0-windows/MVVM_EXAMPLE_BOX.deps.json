@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "MVVM_EXAMPLE_BOX/1.0.0": {
+        "runtime": {
+          "MVVM_EXAMPLE_BOX.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MVVM_EXAMPLE_BOX/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
