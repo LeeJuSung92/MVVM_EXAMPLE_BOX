@@ -1,4 +1,7 @@
 ﻿using System.ComponentModel;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+
 
 namespace MVVM_EXAMPLE_BOX.MainView
 {
@@ -6,7 +9,12 @@ namespace MVVM_EXAMPLE_BOX.MainView
     {
         public event PropertyChangedEventHandler? PropertyChanged;
 
-        private string _Str1;
+        public MainModel()
+        {
+            this.HumanList = new ObservableCollection<Human>();
+        }
+
+        private string _Str1 = "";
 
         public string str1
         {
@@ -20,7 +28,7 @@ namespace MVVM_EXAMPLE_BOX.MainView
 
         }
 
-        private string _Str2;
+        private string _Str2 = "";
 
         public string str2
         {
@@ -43,8 +51,32 @@ namespace MVVM_EXAMPLE_BOX.MainView
             }
         }
 
+        private string _ListName1 = "";
 
+        public string listname1
+        {
+            get => _ListName1;
+            set
+            {
+                _ListName1 = value;
+                OnPropertyChanged("LISTNAME1");
+            }
+        }
 
+        private readonly ObservableCollection<Human> HumanList;
+
+        public ObservableCollection<Human> humanList
+        {
+            get => this.HumanList;
+        }
+
+        public class Human
+        {
+            public string _Category { get; set; }
+            public string _Name { get; set; }
+        }
+
+   
 
         protected void OnPropertyChanged(string propertyName)
         {

@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Collections.ObjectModel;
 
 namespace MVVM_EXAMPLE_BOX.MainView
 {
@@ -7,12 +8,15 @@ namespace MVVM_EXAMPLE_BOX.MainView
         public event PropertyChangedEventHandler? PropertyChanged;
         private MainView.MainModel model;
         public MainView.Command.UPButtonCommand _upButtonCMD { get; set; }  
+        public MainView.Command.AddButtonComaand _addButtonCMD { get; set; }    
         
 
         public MainViewModel()
         {
             model = new MainView.MainModel();
             _upButtonCMD = new MainView.Command.UPButtonCommand(model);
+            _addButtonCMD = new MainView.Command.AddButtonComaand(model);
+
 
         }
 
